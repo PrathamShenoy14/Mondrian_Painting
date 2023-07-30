@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Painting</title>
+  <style>
+    body{
+      background-color:#232629;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .grid-container{
+      background-color: #232629;
+      display: grid;
+      grid-template-columns: repeat(14, 28.75px);
+      grid-template-rows: repeat(14, 28.75px);
+      gap: 9px;
+    }
+    .Blue{
+      background-color: #3755A1;
+    }
+    .Red{
+      background-color: #ec4028;
+    }
+    .Yellow{
+      background-color: #F7C940;
+    }
+    .White{
+      background-color: #FFFEFB;
+    }
+    .Blue1{
+      grid-area: 1/1/2/5;
+    }
+    .Blue2{
+      grid-area: 2/9/9/12;
+    }
+    .Blue3{
+      grid-area: 3/9/9/12;
+    }
+    .Blue4{
+      grid-area: 4/2/9/3;
+    }
+    .Blue5{
+      grid-area: 4/3/8/4;
+    }
+    .Blue6{
+      grid-area: 9/2/12/3;
+    }
+    .Blue7{
+      grid-area: 13/5/15/8;
+    }
+    .Blue8{
+      grid-area: 14/8/15/9;
+    }
+    .Blue9{
+      grid-area: 14/12/15/13;
+    }
+    .Red1{
+      grid-area: 1/10/2/12;
+    }
+    .Red2{
+      grid-area: 2/2/4/3;
+    }
+    .Red3{
+      grid-area: 2/3/4/4;
+    }
+    .Red4{
+      grid-area: 7/8/12/9;
+    }
+    .Red5{
+      grid-area: 11/1/12/2;
+    }
+    .Red6{
+      grid-area: 9/14/13/15;
+    }
+    .Red7{
+      grid-area: 12/12/14/13;
+    }
+    .Red8{
+      grid-area: 13/3/15/5;
+    }
+    .Red9{
+      grid-area: 13/13/15/14;
+    }
+    .Yellow1{
+      grid-area: 2/4/7/9;
+    }
+    .Yellow2{
+      grid-area:3/12/4/13;
+    }
+    .Yellow3{
+      grid-area:4/1/5/2 ;
+    }
+    .Yellow4{
+      grid-area: 4/12/10/14;
+    }
+    .Yellow5{
+      grid-area:8/3/13/4;
+    }
+    .Yellow6{
+      grid-area: 10/12/12/14;
+    }
+    .Yellow7{
+      grid-area: 12/1/13/2;
+    }            
+    .Yellow8{
+      grid-area: 12/2/14/3;
+    }
+    .Yellow9{
+      grid-area: 12/8/14/9;
+    }
+    .White1{
+      grid-area: 1/5/2/10;
+    }
+    .White2{
+      grid-area: 1/12/3/13;
+    }
+    .White3{
+      grid-area: 1/13/4/14;
+    }
+    .White4{
+      grid-area: 1/14/6/15;
+    }
+    .White5{
+      grid-area: 2/1/4/2;
+    }
+    .White6{
+      grid-area: 5/1/8/2;
+    }
+    .White7{
+      grid-area: 6/14/9/15;
+    }
+    .White8{
+      grid-area: 7/4/9/8;
+    }
+    .White9{
+      grid-area: 8/1/11/2;
+    }
+    .White10{
+      grid-area: 9/4/13/8;
+    }
+    .White11{
+      grid-area: 9/9/15/12;
+    }
+    .White12{
+      grid-area: 12/13/13/14;
+    }
+    .White13{
+      grid-area: 13/1/15/2;
+    }
+    .White14{
+      grid-area: 14/2/15/3;
+    }
+    .White15{
+      grid-area: 13/14/15/15;
+    }
+    h1{
+      color: whitesmoke;
+    }
+
+    
+    
+  </style>
+</head>
+
+<body>
+  <h1>MONDRIAN PAINTING</h1>
+  <div class="grid-container">
+    <div class="grid-item Blue1 Blue"></div>
+    <div class="grid-item Blue2 Blue"></div>
+    <div class="grid-item Blue3 Blue"></div>
+    <div class="grid-item Blue4 Blue"></div>
+    <div class="grid-item Blue5 Blue"></div>
+    <div class="grid-item Blue6 Blue"></div>
+    <div class="grid-item Blue7 Blue"></div>
+    <div class="grid-item Blue8 Blue"></div>
+    <div class="grid-item Blue9 Blue"></div>
+    <div class="grid-item Red1 Red"></div>
+    <div class="grid-item Red2 Red"></div>
+    <div class="grid-item Red3 Red"></div>
+    <div class="grid-item Red4 Red"></div>
+    <div class="grid-item Red5 Red"></div>
+    <div class="grid-item Red6 Red"></div>
+    <div class="grid-item Red7 Red"></div>
+    <div class="grid-item Red8 Red"></div>
+    <div class="grid-item Red9 Red"></div>
+    <div class="grid-item Yellow1 Yellow"></div>
+    <div class="grid-item Yellow2 Yellow"></div>
+    <div class="grid-item Yellow3 Yellow"></div>
+    <div class="grid-item Yellow4 Yellow"></div>
+    <div class="grid-item Yellow5 Yellow"></div>
+    <div class="grid-item Yellow6 Yellow"></div>
+    <div class="grid-item Yellow7 Yellow"></div>
+    <div class="grid-item Yellow8 Yellow"></div>
+    <div class="grid-item Yellow9 Yellow"></div>
+    <div class="grid-item White1 White"></div>
+    <div class="grid-item White2 White"></div>
+    <div class="grid-item White3 White"></div>
+    <div class="grid-item White4 White"></div>
+    <div class="grid-item White5 White"></div>
+    <div class="grid-item White6 White"></div>
+    <div class="grid-item White7 White"></div>
+    <div class="grid-item White8 White"></div>
+    <div class="grid-item White9 White"></div>
+    <div class="grid-item White10 White"></div>
+    <div class="grid-item White11 White"></div>
+    <div class="grid-item White12 White"></div>
+    <div class="grid-item White13 White"></div>
+    <div class="grid-item White14 White"></div>
+    <div class="grid-item White15 White"></div>
+  </div>
+</body>
+
+</html>
